@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/carlosdavidepto/node-frontwall/issues"
   },
-  "homepage": "https://github.com/carlosdavidepto/node-frontwall"
+  "homepage": "https://github.com/carlosdavidepto/node-frontwall",
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "dependencies": {
+    "jayschema": "~0.2.2"
+  }
 }
