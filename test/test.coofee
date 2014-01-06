@@ -1,0 +1,31 @@
+FrontWall = require './index.js'
+
+fw = new FrontWall
+
+    name: 'the name'
+    desc: 'the description'
+
+    proc: (t, i, l, next) ->
+
+    target:
+        b:
+            type: 'object'
+    inputs:
+        a:
+            type: 'object'
+    lenses:
+        c:
+            type: 'array'
+
+    output:
+        type: 'string'
+        minLength: 4
+
+    # errors: [
+    #     1000
+    #     1001
+    #     1002
+    #     1002
+    # ]
+
+console.log fw
