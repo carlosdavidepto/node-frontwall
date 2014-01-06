@@ -4,7 +4,8 @@
   "description": "Define procedures to be run through many contexts and interfaces",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/jasmine-node --coffee test/",
+    "prepublish": "node_modules/.bin/coffee -b -o lib/ src/"
   },
   "repository": {
     "type": "git",
