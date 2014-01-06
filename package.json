@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/carlosdavidepto/node-frontwall",
   "devDependencies": {
-    "coffee-script": "~1.6.3"
+    "coffee-script": "~1.6.3",
+    "jasmine-node": "~1.12.0"
   },
   "dependencies": {
     "jayschema": "~0.2.2"
